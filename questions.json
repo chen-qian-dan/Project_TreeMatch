@@ -1,0 +1,188 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do you have a courtyard, garden, or a farm?",
+      "validation": ["courtyard", "garden", "farm"]
+    },
+    {
+      "id": 2,
+      "question": "Do you like cooking?",
+      "validation": ["yes", "no"]
+    },
+    {
+      "id": 3,
+      "question": "Do you like spicy food?",
+      "validation": ["yes", "no"]
+    },
+    {
+      "id": 4,
+      "question": "How much do you like sweeping the courtyard?",
+      "validation": ["not at all", "serisouly no I'm not playing here"]
+    },
+    {
+      "id": 5,
+      "question": "Do you want a fruiting tree?",
+      "validation": ["yes", "no"]
+    },
+    {
+      "id": 6,
+      "question": "On a scale of 1-10, how much do you like citrus?",
+      "validation": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },
+    {
+      "id": 7,
+      "question": "Are you an awesome cool person?",
+      "validation": ["yes", "no"]
+    },
+    {
+      "id": 8,
+      "question": "How many pigs do you own?",
+      "validation": ["none", "some", "heaps"]
+    },
+    {
+      "id": 9,
+      "question": "Is there a river on your property?",
+      "validation": ["yes", "no"]
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "question_id": 1,
+      "answers": { "courtyard": 2, "garden": 5, "farm": 8 }
+    },
+    { "id": 2, "question_id": 2, "answers": { "yes": 3, "no": 4 } },
+    { "id": 3, "question_id": 3, "answers": { "yes": 13, "no": 14 } },
+    {
+      "id": 4,
+      "question_id": 4,
+      "answers": { "not at all": 15, "serisouly no I'm not playing here": 16 }
+    },
+    { "id": 5, "question_id": 5, "answers": { "yes": 6, "no": 23 } },
+    {
+      "id": 6,
+      "question_id": 6,
+      "answers": {
+        "1": 17,
+        "2": 17,
+        "3": 18,
+        "4": 18,
+        "5": 7,
+        "6": 7,
+        "7": 21,
+        "8": 21,
+        "9": 11,
+        "10": 22
+      }
+    },
+    { "id": 7, "question_id": 7, "answers": { "yes": 19, "no": 20 } },
+    { "id": 8, "question_id": 5, "answers": { "yes": 9, "no": 10 } },
+    { "id": 9, "question_id": 7, "answers": { "yes": 19, "no": 18 } },
+    { "id": 10, "question_id": 2, "answers": { "yes": 11, "no": 12 } },
+    {
+      "id": 11,
+      "question_id": 8,
+      "answers": { "none": 24, "some": 25, "heaps": 26 }
+    },
+    { "id": 12, "question_id": 9, "answers": { "yes": 27, "no": 28 } },
+    { "id": 13, "result_id": 1 },
+    { "id": 14, "result_id": 2 },
+    { "id": 15, "result_id": 3 },
+    { "id": 16, "result_id": 4 },
+    { "id": 17, "result_id": 5 },
+    { "id": 18, "result_id": 6 },
+    { "id": 19, "result_id": 7 },
+    { "id": 20, "result_id": 8 },
+    { "id": 21, "result_id": 9 },
+    { "id": 22, "result_id": 10 },
+    { "id": 23, "result_id": 11 },
+    { "id": 24, "result_id": 12 },
+    { "id": 25, "result_id": 13 },
+    { "id": 26, "result_id": 14 },
+    { "id": 27, "result_id": 15 },
+    { "id": 28, "result_id": 16 }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "name": "Curry leaf tree",
+      "description": "A small tree that's great for courtyards, from which leaves can be picked and added to any curry!"
+    },
+    {
+      "id": 2,
+      "name": "Bay tree",
+      "description": "A robust small tree with small, fragrant, dark green leaves that are great for use in stews and curries."
+    },
+    {
+      "id": 3,
+      "name": "Frangipani",
+      "description": "The marker of any gentrified inner-Sydney suburb. You'll have beautiful flowers all summer long!"
+    },
+    {
+      "id": 4,
+      "name": "Plum blossom",
+      "description": "Has delicate pink flowers in spring, and is less effort to look after than a Frangipani."
+    },
+    {
+      "id": 5,
+      "name": "Coconut palm",
+      "description": "A tall tree that drops dangerously oversized drupes onto people's heads."
+    },
+    {
+      "id": 6,
+      "name": "Apple tree",
+      "description": "The most basic and popular fruit tree!"
+    },
+    {
+      "id": 7,
+      "name": "Feijoa tree",
+      "description": "King of fruits, fruit of kings! Feijoas are the best fruit."
+    },
+    {
+      "id": 8,
+      "name": "Orange tree",
+      "description": "Is the fruit named for the colour or the colour named for the fruit?"
+    },
+    {
+      "id": 9,
+      "name": "Kaffir lime",
+      "description": "2 for the price of 1. Leaves are great in curries and stir fry, but also grows limes!"
+    },
+    {
+      "id": 10,
+      "name": "Lemon tree",
+      "description": "The most prodigious fruiter of all the citrus!"
+    },
+    {
+      "id": 11,
+      "name": "Eucalyptus",
+      "description": "Australia's favourite, this dangerously flammable tree is home to the national animal: The Drop Bear."
+    },
+    {
+      "id": 12,
+      "name": "Walnut tree",
+      "description": "A nut shaped like a miniature brain grows from this tree!"
+    },
+    {
+      "id": 13,
+      "name": "Hazel",
+      "description": "Used for nutella and salads, and even known to habour truffles on the roots!"
+    },
+    {
+      "id": 14,
+      "name": "Oak",
+      "description": "The acorns are a tasty treat for pigs, and truffles can be grown on the roots!"
+    },
+    {
+      "id": 15,
+      "name": "Willow",
+      "description": "A mysterious tree that loves water, mist, and witches."
+    },
+    {
+      "id": 16,
+      "name": "Birch",
+      "description": "A bland pretty tree, suitable for someone who says no to everything!"
+    }
+  ]
+}
